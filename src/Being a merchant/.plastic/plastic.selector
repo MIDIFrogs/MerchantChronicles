@@ -1,0 +1,4 @@
+repository "Being a merchant@JojerFI@cloud"
+  path "/"
+    br "/main"
+    co "/main"
