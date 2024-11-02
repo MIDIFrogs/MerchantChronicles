@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SibGameJam
 {
-    public class NewBehaviourScript : MonoBehaviour
+    public class ClickToAddToInventory : MonoBehaviour
     {
         public Inventory.ItemInfo item;
         public AudioSource clickSound;

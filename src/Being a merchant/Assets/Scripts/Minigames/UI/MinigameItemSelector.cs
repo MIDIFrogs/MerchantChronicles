@@ -9,6 +9,7 @@ namespace SibGameJam.Minigames.UI
 	{
         [SerializeField] private ItemSelectVM itemSelectPrefab;
         [SerializeField] private Button confirmButton;
+        [SerializeField] private Transform gridToAttach;
         
 		private ItemSelectVM selectedItem;
 
@@ -16,13 +17,11 @@ namespace SibGameJam.Minigames.UI
 
 		public MinigameInfo Minigame { get; set; }
 
-        public PlayerInventory Inventory { get; set; }
-
         private void Start()
         {
             foreach (var item in Minigame.SelectableItems)
             {
-                var vm = Instantiate(itemSelectPrefab, transform);
+                var vm = Instantiate(itemSelectPrefab, gridToAttach);
                 vm.Selectable = item;
                 vm.Selector = this;
             }
@@ -31,7 +30,7 @@ namespace SibGameJam.Minigames.UI
         public void OnConfirm()
         {
             var minigame = Instantiate(Minigame.MinigamePrefab, Canvas);
-            minigame.StartGame(Inventory, selectedItem.Selectable.RequestedItem, selectedItem.Selectable.FailItem);
+            minigame.StartGame(selectedItem.Selectable.RequestedItem, selectedItem.Selectable.FailItem);
             Destroy(gameObject);
         }
 

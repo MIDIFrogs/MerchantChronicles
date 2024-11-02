@@ -9,15 +9,12 @@ namespace SibGameJam.Minigames
     {
         [SerializeField] private GameObject gameMenu;
 
-        public PlayerInventory Inventory { get; private set; }
-
         public ItemInfo SelectedItem { get; private set; }
 
         public ItemInfo FailItem { get; private set; }
 
-        public void StartGame(PlayerInventory inventory, ItemInfo selectedItem, ItemInfo failItem)
+        public void StartGame(ItemInfo selectedItem, ItemInfo failItem)
         {
-            Inventory = inventory;
             SelectedItem = selectedItem;
             FailItem = failItem;
             gameMenu.SetActive(true);
@@ -31,11 +28,11 @@ namespace SibGameJam.Minigames
             gameMenu.SetActive(false);
             if (success)
             {
-                Inventory.TryAddItem(SelectedItem);
+                PlayerStats.Inventory.TryAddItem(SelectedItem);
             }
             else
             {
-                Inventory.TryAddItem(FailItem);
+                PlayerStats.Inventory.TryAddItem(FailItem);
             }
             OnGameFinished();
         }
