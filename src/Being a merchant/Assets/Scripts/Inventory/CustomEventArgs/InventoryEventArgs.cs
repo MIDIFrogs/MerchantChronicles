@@ -4,11 +4,11 @@ namespace SibGameJam.Inventory.CustomEventArgs
 {
     public class InventoryEventArgs : EventArgs
     {
-        public ItemInfo ItemInfo { get; private set; }
+        public ItemInfo OldItem { get; private set; }
 
-        public InventoryEventArgs(ItemInfo itemInfo)
+        public InventoryEventArgs(ItemInfo oldItem)
         {
-            ItemInfo = itemInfo;
+            OldItem = oldItem;
         }
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -6,13 +7,12 @@ using UnityEngine.InputSystem;
 
 namespace SibGameJam.Inventory
 {
-    public sealed class PlayerInventory : MonoBehaviour
+    public sealed class PlayerInventory : MonoBehaviour, IEnumerable<ItemInfo>
     {
         [SerializeField] private InventoryGrid inventoryGrid;
         
         [Header("Only for test")]
         [SerializeField] private List<ItemInfo> testItem;
-        [SerializeField] private int testItemCount;
         
         private InventorySlot[] _slots;
 
@@ -32,7 +32,7 @@ namespace SibGameJam.Inventory
                 slot.OnSlotStatusUpdate += Slot_OnSlotStatusUpdate;
             }
 
-            for (int i = 0; i < testItemCount; i++)
+            for (int i = 0; i < testItem.Count; i++)
             {
                 foreach (ItemInfo item in testItem)
                 {
@@ -43,7 +43,7 @@ namespace SibGameJam.Inventory
 
         private void Slot_OnSlotStatusUpdate(object sender, CustomEventArgs.InventoryEventArgs e)
         {
-            OnPlayerInventoryUpdated(this, e.ItemInfo);
+            OnPlayerInventoryUpdated(this, e.OldItem);
         }
         
         public void OnInventoryOpenClose(InputAction.CallbackContext callbackContext) 
@@ -110,5 +110,21 @@ namespace SibGameJam.Inventory
         }
 
         private void Awake() => Initialize();
+
+        public IEnumerator<ItemInfo> GetEnumerator()
+        {
+            foreach (var slot in Slots)
+            {
+                if (slot.ItemInfo != null)
+                {
+                    yield return slot.ItemInfo;
+                }
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
     }
 }
