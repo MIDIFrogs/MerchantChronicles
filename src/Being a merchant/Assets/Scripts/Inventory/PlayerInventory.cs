@@ -81,12 +81,12 @@ namespace SibGameJam.Inventory
             return false;
         }
 
-        public bool TryRemoveItem<TItem>(TItem item, int amount) where TItem : ItemInfo
+        public bool TryRemoveItem<TItem>(TItem item, int count) where TItem : ItemInfo
         {
             int rightItemCount = _slots.Count(x => x.ItemInfo == item);
-            if (rightItemCount >= amount)
+            if (rightItemCount >= count)
             {
-                for (int i = 0; i < amount; i++)
+                for (int i = 0; i < count; i++)
                 {
                     TryRemoveItem(item);
                 }
