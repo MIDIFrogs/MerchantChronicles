@@ -30,7 +30,7 @@ namespace SibGameJam.Minigames.UI
         public void OnConfirm()
         {
             var minigame = Instantiate(Minigame.MinigamePrefab, Canvas);
-            minigame.StartGame(selectedItem.Selectable.RequestedItem, selectedItem.Selectable.FailItem);
+            minigame.StartGame(selectedItem.Selectable.RequestedItem, selectedItem.Selectable.FailItem, Minigame.Level);
             Destroy(gameObject);
         }
 

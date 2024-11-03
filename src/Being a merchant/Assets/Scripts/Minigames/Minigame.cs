@@ -13,10 +13,13 @@ namespace SibGameJam.Minigames
 
         public ItemInfo FailItem { get; private set; }
 
-        public void StartGame(ItemInfo selectedItem, ItemInfo failItem)
+        public MinigameTask Level { get; private set; }
+
+        public void StartGame(ItemInfo selectedItem, ItemInfo failItem, MinigameTask level)
         {
             SelectedItem = selectedItem;
             FailItem = failItem;
+            Level = level;
             gameMenu.SetActive(true);
             OnGameStarted();
         }
@@ -34,9 +37,9 @@ namespace SibGameJam.Minigames
             {
                 PlayerStats.Inventory.TryAddItem(FailItem);
             }
-            OnGameFinished();
+            OnGameFinished(success);
         }
 
-        protected abstract void OnGameFinished();
+        protected abstract void OnGameFinished(bool success);
     }
 }

@@ -5,15 +5,7 @@ namespace SibGameJam
 {
 	public static class PlayerStats
 	{
-		public static int Reputation
-        {
-            get => PlayerPrefs.GetInt(nameof(Reputation));
-            set
-            {
-                PlayerPrefs.SetInt(nameof(Reputation), value);
-                PlayerPrefs.Save();
-            }
-        }
+		public static int Reputation { get; set; }
 
         public static PlayerInventory Inventory { get; set; }
 	}

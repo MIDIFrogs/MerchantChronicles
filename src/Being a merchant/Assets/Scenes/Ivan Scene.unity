@@ -822,7 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e46a80204fa14944a99539d3316abcc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minigameToStart: {fileID: 11400000, guid: bc0747cb146664444aacaf81b11418a8, type: 2}
+  minigameToStart: {fileID: 11400000, guid: bcd8f84bad0fe84458bf6e7985e7221c, type: 2}
   itemSelector: {fileID: 902288943053496282, guid: 1cc621287772a7342a2875e5666d5b6d, type: 3}
   canvas: {fileID: 616130856}
 --- !u!114 &1289708518
@@ -1158,62 +1158,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 616130856}
     m_Modifications:
-    - target: {fileID: 538068469675066093, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: m_TargetGraphic
-      value: 
-      objectReference: {fileID: 1577085536}
-    - target: {fileID: 538068469675066093, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 538068469675066093, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 538068469675066093, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1577085531}
-    - target: {fileID: 538068469675066093, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2941595549982844883, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9c1c73bacb890b746b74bd0ccb08fdda, type: 3}
-    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: size
-      value: 0.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: clickSound
-      value: 
-      objectReference: {fileID: 1718168447}
-    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: outlineSize
-      value: 106.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: DefaultParent
-      value: 
-      objectReference: {fileID: 792769733}
-    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: outlineColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: outlineColor.g
-      value: 0.023933586
-      objectReference: {fileID: 0}
-    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: outlineColor.r
-      value: 0.015686274
-      objectReference: {fileID: 0}
-    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
-      propertyPath: animationDuration
-      value: 0.41
-      objectReference: {fileID: 0}
     - target: {fileID: 4989496014885680326, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
       propertyPath: m_TargetGraphic
       value: 
@@ -1301,6 +1245,62 @@ PrefabInstance:
     - target: {fileID: 8398545282974095613, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 538068469675066093, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 1577085536}
+    - target: {fileID: 538068469675066093, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 538068469675066093, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 538068469675066093, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1577085531}
+    - target: {fileID: 538068469675066093, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2941595549982844883, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9c1c73bacb890b746b74bd0ccb08fdda, type: 3}
+    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: size
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: clickSound
+      value: 
+      objectReference: {fileID: 1718168447}
+    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: outlineSize
+      value: 106.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: DefaultParent
+      value: 
+      objectReference: {fileID: 792769733}
+    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: outlineColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: outlineColor.g
+      value: 0.023933586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: outlineColor.r
+      value: 0.015686274
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114669907224560639, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
+      propertyPath: animationDuration
+      value: 0.41
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2941595549982844883, guid: ad7ab8700413b4544ab220e91ac67287, type: 3}
