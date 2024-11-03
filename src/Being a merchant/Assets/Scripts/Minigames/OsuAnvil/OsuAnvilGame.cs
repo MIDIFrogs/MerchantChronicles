@@ -2,7 +2,7 @@ namespace SibGameJam.Minigames
 {
     public class OsuAnvilGame : Minigame
     {
-        protected override void OnGameFinished()
+        protected override void OnGameFinished(bool success)
         {
             // TODO
         }

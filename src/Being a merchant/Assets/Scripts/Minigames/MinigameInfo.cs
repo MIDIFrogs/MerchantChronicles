@@ -9,9 +9,12 @@ namespace SibGameJam.Minigames
     {
         [SerializeField] private Minigame minigamePrefab;
         [SerializeField] private List<MinigameSelectableItem> selectableItems;
+        [SerializeField] private MinigameTask level;
 
         public Minigame MinigamePrefab => minigamePrefab;
 
         public IReadOnlyList<MinigameSelectableItem> SelectableItems => selectableItems;
+
+        public MinigameTask Level => level;
     }
 }
