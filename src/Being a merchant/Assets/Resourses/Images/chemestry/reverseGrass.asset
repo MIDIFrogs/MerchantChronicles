@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f621436940a22074b9f98f29b8ed990b, type: 3}
   m_Name: reverseGrass
   m_EditorClassIdentifier: 
-  title: 
+  title: "\u041F\u043E\u0432\u043E\u0440\u043E\u0442\u043D\u0430\u044F \u0442\u0440\u0430\u0432\u0430"
   description: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: d72a2af827217dc49b4f93a3ba0c35e4, type: 3}
   itemType: 0
   itemRarity: 0

@@ -31,7 +31,7 @@ namespace SibGameJam
 
         public void AddImages()
         {
-            foreach (var item in PlayerStats.Inventory)
+            foreach (var item in PlayerStats.Session.Inventory)
             {
                 newImage = Instantiate(imagePrefab, gridPanel);
                 newImage.GetComponent<Image>().sprite = item.Icon;
@@ -71,7 +71,7 @@ namespace SibGameJam
                 if (RectTransformUtility.RectangleContainsScreenPoint(dropPanel.GetComponent<RectTransform>(), Input.mousePosition, Camera.main))
                 {
                     result.Add(draggedImage.GetComponent<ImageDragHandler>().itemInfo);
-                    PlayerStats.Inventory.TryRemoveItem(draggedImage.GetComponent<ImageDragHandler>().itemInfo);
+                    PlayerStats.Session.Inventory.TryRemoveItem(draggedImage.GetComponent<ImageDragHandler>().itemInfo);
                     Destroy(draggedImage);
                     
                 }
@@ -93,7 +93,7 @@ namespace SibGameJam
                 {
                     if (result[0] == burda.First && result[1] == burda.Second && result[2] == burda.Third)
                     {
-                        PlayerStats.Inventory.TryAddItem(burda.PoisonR);
+                        PlayerStats.Session.Inventory.TryAddItem(burda.PoisonR);
                         FinishGame();
                         flag = true; 
                         break;
@@ -102,13 +102,13 @@ namespace SibGameJam
                 if(!flag)
                 {
                     FinishGame();
-                    PlayerStats.Inventory.TryAddItem(XerZnaetChto);
+                    PlayerStats.Session.Inventory.TryAddItem(XerZnaetChto);
                 }
             }
             else
             {
                 FinishGame();
-                PlayerStats.Inventory.TryAddItem(XerZnaetChto);
+                PlayerStats.Session.Inventory.TryAddItem(XerZnaetChto);
             }
 
             foreach (var prf in all)

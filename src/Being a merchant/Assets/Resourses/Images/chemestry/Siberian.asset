@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f621436940a22074b9f98f29b8ed990b, type: 3}
   m_Name: Siberian
   m_EditorClassIdentifier: 
-  title: 
+  title: "\u0421\u0438\u043B\u0430 \u0421\u0438\u0431\u0438\u0440\u0438"
   description: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 81f2464f962148a42b8c60290e5dcabc, type: 3}
   itemType: 0
   itemRarity: 0

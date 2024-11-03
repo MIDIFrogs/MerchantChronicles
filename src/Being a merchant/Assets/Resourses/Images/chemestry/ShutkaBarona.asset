@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f621436940a22074b9f98f29b8ed990b, type: 3}
   m_Name: ShutkaBarona
   m_EditorClassIdentifier: 
-  title: 
+  title: "\u0428\u0443\u0442\u043A\u0430 \u0411\u0430\u0440\u043E\u043D\u0430"
   description: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 99b65e386db97a64ab68c41047572cc2, type: 3}
   itemType: 0
   itemRarity: 0

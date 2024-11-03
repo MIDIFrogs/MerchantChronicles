@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce17a37d2ad599247b977fbcd1104fe1, type: 3}
   m_Name: POISONHEAL
   m_EditorClassIdentifier: 
-  first: {fileID: 0}
-  second: {fileID: 0}
-  third: {fileID: 0}
-  poisonR: {fileID: 0}
+  first: {fileID: 11400000, guid: 58348819ac45a344ca00d9d282395bb2, type: 2}
+  second: {fileID: 11400000, guid: 561b061675395824197cdf45fd1e79a9, type: 2}
+  third: {fileID: 11400000, guid: df9204ece3ad44e4a805981a7229da00, type: 2}
+  poisonR: {fileID: 11400000, guid: 63e5980be1c5f034a9e0449f81a39042, type: 2}
