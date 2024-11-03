@@ -16,6 +16,7 @@ namespace SibGameJam.Minigames
             card?.StartTimer();
 			Slot.Step = newCard.Step;
 			newCard.transform.SetParent(transform);
+			newCard.transform.localPosition = Vector3.zero;
 			newCard.StopTimer();
 		}
 
