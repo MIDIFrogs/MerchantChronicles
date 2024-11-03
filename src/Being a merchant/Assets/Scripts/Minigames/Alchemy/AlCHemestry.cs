@@ -21,11 +21,15 @@ namespace SibGameJam
         private List<ItemInfo> result = new List<ItemInfo>();
         private List<GameObject> all= new List<GameObject>();
         public List<Poison> poisons;
-        public ItemInfo XerZnaetChto; 
+        public ItemInfo XerZnaetChto;
+        public GameObject stupa;
+        public GameObject stupa1; 
 
         public void Start()
         {
             panel.SetActive(false);
+            stupa1.SetActive(false);
+            stupa1.SetActive(true);
         }
 
 
@@ -73,7 +77,8 @@ namespace SibGameJam
                     result.Add(draggedImage.GetComponent<ImageDragHandler>().itemInfo);
                     PlayerStats.Session.Inventory.TryRemoveItem(draggedImage.GetComponent<ImageDragHandler>().itemInfo);
                     Destroy(draggedImage);
-                    
+                    stupa1.SetActive(true);
+                    stupa.SetActive(false);
                 }
                 else
                 {
@@ -110,11 +115,14 @@ namespace SibGameJam
                 FinishGame();
                 PlayerStats.Session.Inventory.TryAddItem(XerZnaetChto);
             }
-
+            stupa1.SetActive(false);
+            stupa.SetActive(true);
             foreach (var prf in all)
             {
                 Destroy(prf);
             }
+
+            
         }
 
         public void OnClick()
