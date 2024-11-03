@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: Cake recipe
   m_EditorClassIdentifier: 
   steps:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 64d348b364968a540b2ae2b0c723b148, type: 2}
+  - {fileID: 11400000, guid: 24c808a87ef806444bae599ee360c82e, type: 2}
+  - {fileID: 11400000, guid: ec62e8e6f741fd745a370985d26a500f, type: 2}
+  - {fileID: 11400000, guid: 128ae0dad3469d346a4d8d335364e09c, type: 2}
+  - {fileID: 11400000, guid: 81ac533d239265b418924799b96abf0b, type: 2}

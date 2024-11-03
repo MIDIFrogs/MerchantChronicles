@@ -822,7 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e46a80204fa14944a99539d3316abcc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minigameToStart: {fileID: 11400000, guid: bcd8f84bad0fe84458bf6e7985e7221c, type: 2}
+  minigameToStart: {fileID: 11400000, guid: 8c07e0e58072b714bb008652376ec6e2, type: 2}
   itemSelector: {fileID: 902288943053496282, guid: 1cc621287772a7342a2875e5666d5b6d, type: 3}
   canvas: {fileID: 616130856}
 --- !u!114 &1289708518
