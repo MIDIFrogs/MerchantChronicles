@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 
 namespace SibGameJam.DialogSystem
@@ -10,6 +11,7 @@ namespace SibGameJam.DialogSystem
         [SerializeField][Multiline] private string message;
         [SerializeField] private AudioClip voice;
         [SerializeField] private Sprite frameSplash;
+        [SerializeField] private FontStyles fontStyle;
 
         public ReplicAuthor Author => author;
 
@@ -18,5 +20,7 @@ namespace SibGameJam.DialogSystem
         public string Message => message;
 
         public Sprite FrameSplash => frameSplash;
+        
+        public FontStyles FontStyle => fontStyle;
     }
 }

@@ -87,6 +87,7 @@ namespace SibGameJam.DialogSystem
 					epilogue = badEndingDialog;
 				}
 			}
+			Debug.Log($"Level ended with result {result}. Starting playing dialogs.");
 			await dialogPlayer.StartDialogAsync(dialogToPlay);
 			await dialogPlayer.StartDialogAsync(epilogue);
 			PlayerStats.Session.LevelCompleted(result, price);
