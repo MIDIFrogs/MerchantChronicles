@@ -10,12 +10,14 @@ namespace SibGameJam.Inventory
         [SerializeField] private Sprite icon;
         [SerializeField] private ItemType itemType;
         [SerializeField] private ItemRarity itemRarity;
+        [SerializeField] private int recommendedPrice;
 
         public string Title => title;
         public string Description => description;
         public Sprite Icon => icon;
         public ItemType ItemType => itemType;
         public ItemRarity ItemRarity => itemRarity;
+        public int RecommendedPrice => recommendedPrice;
 
         public string GetItemTypeTranslated()
         {

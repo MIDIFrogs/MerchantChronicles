@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-namespace MerchantChronicles.DialogSystem
+namespace SibGameJam.DialogSystem
 {
     [Serializable]
     [CreateAssetMenu(fileName = "New dialog", menuName = "Dialogs/Dialog")]
