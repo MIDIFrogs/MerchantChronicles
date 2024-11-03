@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-namespace MerchantChronicles.DialogSystem
+namespace SibGameJam.DialogSystem
 {
     [CreateAssetMenu(fileName = "New author", menuName = "Dialogs/Replic Author")]
     [Serializable]

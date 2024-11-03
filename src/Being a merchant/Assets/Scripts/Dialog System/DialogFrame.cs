@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using System;
 
-namespace MerchantChronicles.DialogSystem
+namespace SibGameJam.DialogSystem
 {
     public class DialogFrame : MonoBehaviour
     {
@@ -15,6 +15,7 @@ namespace MerchantChronicles.DialogSystem
         [SerializeField] private TMP_Text authorName;
         [SerializeField] private Image authorAvatar;
         [SerializeField] private AudioSource voiceOver;
+        [SerializeField] private Image splash;
 
         private TaskCompletionSource<bool> waitButton;
 
@@ -37,7 +38,7 @@ namespace MerchantChronicles.DialogSystem
                 replicText.text = text[..i];
                 await Task.Delay(TimeSpan.FromMilliseconds(40) / textSpeed);
             }
-
+            
             // Assuming each 100 characters in text should be read in 1.5 seconds.
             float textReadCoefficient = text.Length / 100f;
             // For autoplay to read after text
@@ -55,6 +56,18 @@ namespace MerchantChronicles.DialogSystem
             // Prepare the token to cancel the animation.
             CancellationTokenSource cancelPreTask = new();
 
+            // Set image if not null
+            if (replic.FrameSplash == null)
+            {
+                splash.enabled = false;
+            }
+            else
+            {
+                splash.enabled = true;
+                splash.color = new Color(1, 1, 1, 0);
+                splash.sprite = replic.FrameSplash;
+                splash.CrossFadeAlpha(1, 0.3f, true);
+            }
             // Fill up the frame data
             if (replic.Voice != null)
             {

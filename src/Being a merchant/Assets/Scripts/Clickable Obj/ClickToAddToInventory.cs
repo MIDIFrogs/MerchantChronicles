@@ -11,7 +11,7 @@ namespace SibGameJam
         public void OnClick()
         {
             clickSound.Play();
-            Debug.Log(PlayerStats.Inventory.TryAddItem(item));
+            Debug.Log(PlayerStats.Session.Inventory.TryAddItem(item));
             Destroy(gameObject);
         }
     }

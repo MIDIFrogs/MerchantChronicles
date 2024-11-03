@@ -48,7 +48,7 @@ namespace SibGameJam.Minigames
 
         protected override void OnGameFinished(bool success)
         {
-            throw new System.NotImplementedException();
+            Destroy(gameObject);
         }
 
         protected override void OnGameStarted()

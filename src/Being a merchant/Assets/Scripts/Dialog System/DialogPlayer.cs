@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace MerchantChronicles.DialogSystem
+namespace SibGameJam.DialogSystem
 {
     public class DialogPlayer : MonoBehaviour
     {

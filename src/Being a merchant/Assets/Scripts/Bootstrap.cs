@@ -9,7 +9,7 @@ namespace SibGameJam
 
         private void Start()
         {
-            PlayerStats.Inventory = inventory;
+            PlayerStats.Session.Inventory = inventory;
         }
     }
 }

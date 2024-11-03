@@ -31,11 +31,11 @@ namespace SibGameJam.Minigames
             gameMenu.SetActive(false);
             if (success)
             {
-                PlayerStats.Inventory.TryAddItem(SelectedItem);
+                PlayerStats.Session.Inventory.TryAddItem(SelectedItem);
             }
             else
             {
-                PlayerStats.Inventory.TryAddItem(FailItem);
+                PlayerStats.Session.Inventory.TryAddItem(FailItem);
             }
             OnGameFinished(success);
         }
