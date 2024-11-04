@@ -9,11 +9,16 @@ namespace SibGameJam.Minigames
     {
         [SerializeField] private GameObject gameMenu;
 
+        [SerializeField] private AudioSource amb;
+
+        [SerializeField] private AudioSource miniGameMusic;
+
         public ItemInfo SelectedItem { get; private set; }
 
         public ItemInfo FailItem { get; private set; }
 
         public MinigameTask Level { get; private set; }
+
 
         public void StartGame(ItemInfo selectedItem, ItemInfo failItem, MinigameTask level)
         {
