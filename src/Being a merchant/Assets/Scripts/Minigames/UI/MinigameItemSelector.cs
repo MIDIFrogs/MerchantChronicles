@@ -18,6 +18,7 @@ namespace SibGameJam.Minigames.UI
         public Transform Canvas { get; set; }
 
         public AudioSource Amb {  get; set; }
+
 		public MinigameInfo Minigame { get; set; }
 
         private void Start()
