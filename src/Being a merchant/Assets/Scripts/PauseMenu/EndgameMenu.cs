@@ -38,7 +38,7 @@ namespace SibGameJam
 
 		public IEnumerator BackToMenu()
 		{
-			yield return new WaitForSeconds(20);
+			yield return new WaitForSeconds(30);
 			SceneManager.LoadScene("Credits");
 		}
 	}
