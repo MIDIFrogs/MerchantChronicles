@@ -832,7 +832,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -460, y: -2606}
+  m_AnchoredPosition: {x: -460, y: -3070}
   m_SizeDelta: {x: 1000, y: 2000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1798484350
@@ -868,97 +868,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Beeing a merchant
-
-    by MIDIFrogs
-
-
-    Code:
-
-    Ivan (IOExcept10n)
-    Olyanishin
-
-    Maxim (jojer) Odincov
-
-
-    Design:
-
-    Alexey (DJsonSun) Zhaliy
-
-    Karina
-    (kkkira_kh) Xmeleva
-
-    Daniel (dachvince) Dachnikov
-
-    Dmitriy (Dexitti)
-    Yakovlev
-
-
-    Music:
-
-    Roman (konekodayo) Sviridov
-
-
-    Fonts:
-
-    Zametka
-
-
-    Tools
-    used in development:
-
-    Photoshop
-
-    Krita
-
-    Unity
-
-    Figma
-
-    SumatraPDF
-
-    Telegram
-
-    Discord
-
-    GoogleMeet
-
-    Miro
-
-    GitHub
-
-    YandexMusic
-
-    Discord-zapret
-
-    NekoRay
-
-    Outline
-
-    And
-    maybe something else...
-
-
-    Special thanks:
-
-    Artyom Zhaliy
-
-    DeepEXSence
-
-    FalseDmitriy4
-
-    Alex
-    Atoman
-
-
-    And thank YOU for playing!!!
-
-
-    Best wishes,
-
-    MIDIFrogs Team
-
-    ^_^'
+  m_text: "Being a Merchant\r\nby MIDIFrogs\r\n\r\nGame design:\r\nIvan (IOExcept10n)
+    Olyanishin\r\nMaxim (jojer_m) Odincov\r\nAlexey (DJsonSun) Zhaliy\r\nDaniel (da4ch4nik)
+    Kydzoev\r\n\r\nCode:\r\nIvan (IOExcept10n) Olyanishin\r\nMaxim (jojer_m) Odincov\r\n\r\nUI/UX
+    Design:\r\nAlexey (DJsonSun) Zhaliy\r\nDanil (da4ch4nik)  Kydzoev\r\n\r\nArtists:\r\nDaniel
+    (da4ch4nik) Kydzoev\r\nKarina (kkkira_kh) Xmeleva\r\nDmitriy (Dexitti) Yakovlev\r\nAlexey
+    (DJsonSun) Zhaliy\r\n\r\nMusic and Sound Design:\r\nRoman (sobachiykal) Sviridov\r\n\r\nFonts:\r\nZametka\r\n\r\nTools
+    used in development:\r\nPhotoshop\r\nKrita\r\nUnity\r\nFigma\r\nSumatraPDF\r\nTelegram\r\nDiscord\r\nGoogleMeet\r\nMiro\r\nGitHub\r\nYandexMusic\r\nDiscord-zapret\r\nNekoRay\r\nOutline\r\nAnd
+    maybe something else...\r\n\r\nSpecial thanks:\r\nArtyom Zhaliy\r\nDeep-Ex-Sense\r\nFalseDmitriyIV\r\nAlex
+    Atoman\r\nFinik\r\nSong \"\u0414\u0438\u0430\u043B\u043E\u0433\u0438 \u0442\u0435\u0442-\u0430-\u0442\u0435\u0442\"\r\n\r\nAnd
+    thank YOU for playing!!!\r\n\r\nBest wishes,\r\nMIDIFrogs Team\r\n^_^"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2142ac6c4ab29f649858b21e4601da61, type: 2}
   m_sharedMaterial: {fileID: -5495967623950338413, guid: 2142ac6c4ab29f649858b21e4601da61, type: 2}

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogContent:
   - author: {fileID: 11400000, guid: 2e651e578480e7e4781466e52f48ac52, type: 2}
-    message: 
+    message: ...
     voice: {fileID: 0}
-    frameSplash: {fileID: 21300000, guid: f64b91b1714f21d4e84d907f397fa578, type: 3}
+    frameSplash: {fileID: 21300000, guid: 7846d9f0d0a4271449943ed0a74bcf0d, type: 3}
     fontStyle: 2
   - author: {fileID: 11400000, guid: 2a2b3ee5b9b592e4492e476657de5b23, type: 2}
     message: "\u0412\u0430\u0448 \u0432\u044B\u0431\u043E\u0440 \u0441\u0442\u0430\u043B
@@ -39,5 +39,5 @@ MonoBehaviour:
       \u0432\u0440\u0430\u0449\u0435\u043D\u0438\u0435 \u0437\u0435\u043C\u043B\u0438
       \u043D\u0435 \u043F\u0440\u0435\u043A\u0440\u0430\u0449\u0430\u043B\u043E\u0441\u044C"
     voice: {fileID: 0}
-    frameSplash: {fileID: 21300000, guid: c967b6c54b9a96040b151234c98ded4e, type: 3}
+    frameSplash: {fileID: 21300000, guid: 7846d9f0d0a4271449943ed0a74bcf0d, type: 3}
     fontStyle: 2

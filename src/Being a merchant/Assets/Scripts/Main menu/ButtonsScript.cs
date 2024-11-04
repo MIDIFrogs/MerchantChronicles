@@ -17,6 +17,7 @@ namespace SibGameJam.MainMenu
         public AudioSource clickSound;
         public float animationDuration;
         public Button btn;
+        public GameObject settings; 
 
         void Awake()
         {
@@ -58,6 +59,7 @@ namespace SibGameJam.MainMenu
         {
             Debug.Log("Кнопка нажата");
             clickSound.Play();
+            settings.SetActive(true);
         }
 
         public void OnPointerEnter(PointerEventData eventData)

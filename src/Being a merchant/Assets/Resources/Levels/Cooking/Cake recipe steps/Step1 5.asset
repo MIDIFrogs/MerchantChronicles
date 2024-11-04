@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04b46691d62e91c44a74dd5077e0c7f8, type: 3}
+  m_Name: Step1 5
+  m_EditorClassIdentifier: 
+  stepName: "\u0420\u0443\u043B\u0435\u0442 \u0437\u0430\u0434\u0435\u043B\u0430\u0442\u044C"
+  duration: 10.2
+  icon: {fileID: 21300000, guid: d7375963cbd81ef4fbdee1b227e92897, type: 3}

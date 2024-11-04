@@ -12,7 +12,7 @@ namespace SibGameJam
         [SerializeField] private MinigameInfo minigameToStart;
         [SerializeField] private MinigameItemSelector itemSelector;
         [SerializeField] private AudioSource amb;
- 
+
         [Header("Required to attach")]
         [SerializeField] private Transform canvas;
 

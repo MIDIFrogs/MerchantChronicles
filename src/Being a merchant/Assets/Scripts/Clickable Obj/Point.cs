@@ -12,6 +12,9 @@ public class Point : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public float animationDuration;
     public TextMeshProUGUI text;
     public float size;
+    [SerializeField] private AudioClip open;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip close;
     public void Start()
     {
         if (text != null)
@@ -25,6 +28,11 @@ public class Point : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         {
             text.enabled = true;
         }
+
+        if (open != null)
+        {
+            audioSource.PlayOneShot(open);
+        }
         StartCoroutine(Animate(size));
         Debug.Log("Навелись!");
     }
@@ -34,6 +42,11 @@ public class Point : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         if (text != null)
         {
             text.enabled = false;
+        }
+
+        if (close != null)
+        {
+            audioSource.PlayOneShot(close);
         }
         StartCoroutine(Animate(-size));
         Debug.Log("Не навелись");

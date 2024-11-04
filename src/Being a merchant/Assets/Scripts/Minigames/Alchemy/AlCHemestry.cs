@@ -16,6 +16,8 @@ namespace SibGameJam
         [SerializeField] private Button Result;
         [SerializeField] private AudioSource amb;
         [SerializeField] private AudioSource miniGameMusic;
+        [SerializeField] private AudioSource dop;
+        [SerializeField] private AudioClip end;
         private Vector3 originalPosition;
         public Canvas canvas;
         private GameObject draggedImage;
@@ -119,6 +121,7 @@ namespace SibGameJam
             }
             stupa1.SetActive(false);
             stupa.SetActive(true);
+            dop.PlayOneShot(end);
             foreach (var prf in all)
             {
                 Destroy(prf);

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: VonSword
   authorName: "\u0411\u0430\u0440\u043E\u043D \u0444\u043E\u043D \u0421\u0432\u043E\u0440\u0434"
-  signColor: {r: 1, g: 0.39090347, b: 0, a: 1}
-  avatar: {fileID: 21300000, guid: bf3b5b9f5b53d7040988f1ed437e0c0b, type: 3}
+  signColor: {r: 1, g: 1, b: 1, a: 1}
+  avatar: {fileID: 21300000, guid: d5c86aaa45912f546a700b6731d0e50f, type: 3}

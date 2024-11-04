@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Wait
   authorName: "\u041F\u0430\u0440\u0443 \u0434\u043D\u0435\u0439 \u0441\u043F\u0443\u0441\u0442\u044F..."
-  signColor: {r: 0.36019316, g: 0, b: 0.5283019, a: 0.7647059}
-  avatar: {fileID: 0}
+  signColor: {r: 0.92337525, g: 0.759434, b: 1, a: 1}
+  avatar: {fileID: 21300000, guid: 96d63e5afbff0934ba42c387a2e39869, type: 3}

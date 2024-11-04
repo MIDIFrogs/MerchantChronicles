@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Tutorial
   authorName: "\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435"
-  signColor: {r: 0.6167823, g: 0.9245283, b: 0, a: 1}
-  avatar: {fileID: 21300000, guid: 7267751a3377ee54c8f1b423c7b1baa2, type: 3}
+  signColor: {r: 0.9668412, g: 1, b: 0.9009434, a: 1}
+  avatar: {fileID: 21300000, guid: 6b8214dfe57fee54b955437d3cb63d6f, type: 3}
