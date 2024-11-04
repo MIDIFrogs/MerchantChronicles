@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f621436940a22074b9f98f29b8ed990b, type: 3}
   m_Name: biceps
   m_EditorClassIdentifier: 
-  title: 
+  title: "\u0411\u0438\u0446\u0435\u043F\u0441 \u0431\u044B\u043A\u0430"
   description: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: d8a31656987a0134bb4791b17284b9e0, type: 3}
   itemType: 0
   itemRarity: 0
   recommendedPrice: 0

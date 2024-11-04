@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9778e5dbd391b8245a4174fdbc1d1462, type: 3}
   m_Name: kolbi
   m_EditorClassIdentifier: 
-  answer: 3547
+  answer: 1728
   question: {fileID: 21300000, guid: 24b6f6e4345efff4295041d75ce99591, type: 3}
