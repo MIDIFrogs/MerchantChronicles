@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 
 namespace SibGameJam.MainMenu
 {
@@ -15,9 +16,12 @@ namespace SibGameJam.MainMenu
         public Transform DefaultParent;
         public AudioSource clickSound;
         public float animationDuration;
+        public Button btn;
+
         void Awake()
         {
             MainCamera = Camera.allCameras[0];
+            btn.interactable = GameSession.SessionExists;                        
         }
 
         public void ClickToExit()
@@ -31,20 +35,28 @@ namespace SibGameJam.MainMenu
         {
             Debug.Log("Кнопка нажата");
             clickSound.Play();
+            PlayerStats.Session = new GameSession();
+            SceneManager.LoadScene("Main Screen");
+        }
+
+        public void ClickToStartGame()
+        {
+            Debug.Log("Кнопка нажата");
+            clickSound.Play();
+            PlayerStats.Session = GameSession.LoadOrCreate();
             SceneManager.LoadScene("Main Screen");
         }
 
         public void ClickToSeeAuthors()
         {
             Debug.Log("Кнопка нажата");
-
+            SceneManager.LoadScene("Credits");
             clickSound.Play();
         }
 
         public void ClickToSettings()
         {
             Debug.Log("Кнопка нажата");
-
             clickSound.Play();
         }
 

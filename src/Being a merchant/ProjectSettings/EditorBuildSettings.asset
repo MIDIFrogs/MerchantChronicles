@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ivan Scene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: ffc1c6990dcd66e4a933ed763fa518ed
+  - enabled: 1
+    path: Assets/Scenes/Main Screen.unity
+    guid: 05ef0b0733fbb6246847e35c33a491aa
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: d1f8e1d89da42fd42a748101657fc824
   m_configObjects: {}
