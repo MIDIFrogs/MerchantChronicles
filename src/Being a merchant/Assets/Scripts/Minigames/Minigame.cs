@@ -19,6 +19,7 @@ namespace SibGameJam.Minigames
 
         public MinigameTask Level { get; private set; }
 
+        public AudioSource MinigameMusic => miniGameMusic;
 
         public void StartGame(ItemInfo selectedItem, ItemInfo failItem, MinigameTask level, AudioSource amb)
         {

@@ -16,7 +16,7 @@ MonoBehaviour:
   - author: {fileID: 11400000, guid: 2e651e578480e7e4781466e52f48ac52, type: 2}
     message: 
     voice: {fileID: 0}
-    frameSplash: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    frameSplash: {fileID: 21300000, guid: f64b91b1714f21d4e84d907f397fa578, type: 3}
     fontStyle: 0
   - author: {fileID: 11400000, guid: 2a2b3ee5b9b592e4492e476657de5b23, type: 2}
     message: "\u041E \u043D\u0435\u0442! \u0424\u0438\u0433\u043D\u044F, \u043A\u043E\u0442\u043E\u0440\u0443\u044E
