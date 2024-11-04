@@ -1640,6 +1640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogPlayer: {fileID: 2065403223}
   goodItems: []
+  priceMaker: {fileID: 11400000, guid: d8cbe7859d94137409e9939dc12991e3, type: 2}
   startDialog: {fileID: 11400000, guid: 56ceb282dda85cd49a36a37b15c71c0b, type: 2}
   sellGoodPriceDialog: {fileID: 11400000, guid: d7bb86be7e8d0904b8624cecbb6256e8, type: 2}
   sellBadPriceDialog: {fileID: 11400000, guid: cce1d50b3b765e640997754097bc76ac, type: 2}

@@ -10,6 +10,7 @@ namespace SibGameJam.DialogSystem
 
 		[Header("Level requirements")]
 		[SerializeField] private List<ItemInfo> goodItems;
+		[SerializeField] private PriceMaker priceMaker;
 
 		[Header("Level start")]
 		[SerializeField] private Dialog startDialog;
@@ -22,6 +23,8 @@ namespace SibGameJam.DialogSystem
 		[SerializeField] private Dialog goodEndingDialog;
 		[SerializeField] private Dialog badEndingDialog;
 
+		public PriceMaker PriceMaker => priceMaker;
+
         public async void Start()
         {
 			// Begin start dialog.
@@ -30,32 +33,10 @@ namespace SibGameJam.DialogSystem
 
 		public bool IsItemGood(ItemInfo item) => goodItems.Contains(item);
 
-		public int CalculateRecommendedPrice(ItemInfo item)
-		{
-			decimal reputationPriceCoefficient = PlayerStats.Session.Reputation switch
-			{
-				< -10 => 0.5m,
-				< 0 => 0.8m,
-				< 5 => 1m,
-				< 10 => 1.25m,
-				_ => 1.5m,
-			};
-			return (int)decimal.Round(item.RecommendedPrice * reputationPriceCoefficient);
-		}
-
-		public int GetMaxPrice(ItemInfo item)
-		{
-			int price = CalculateRecommendedPrice(item);
-			// Add random percent from 20 to 100 and then round to nearest tens.
-			return (int)decimal.Round(price * (decimal)Random.Range(1.2f, 2f) * 0.1m) * 10;
-		}
-
 		public async void OnItemSold(ItemInfo item, int price)
 		{
 			bool itemGood = IsItemGood(item);
-			// Max good price is 120% from recommended.
-			int maxGoodPrice = (int)decimal.Round(CalculateRecommendedPrice(item) * 0.12m) * 10;
-			bool priceGood = price <= maxGoodPrice;
+			bool priceGood = priceMaker.IsPriceGood(item, price);
 			GameResult result;
 			Dialog dialogToPlay;
 			Dialog epilogue;
