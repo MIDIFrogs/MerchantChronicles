@@ -91,3 +91,4 @@ MonoBehaviour:
   circleImage: {fileID: 8173155869205089202}
   leftColor: {r: 0, g: 1, b: 0.8026962, a: 1}
   rightColor: {r: 0.6509434, g: 0, b: 0.52684665, a: 1}
+  fadeOutTime: 0.25
