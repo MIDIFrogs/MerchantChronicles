@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: PlayableSceneList
   m_EditorClassIdentifier: 
   sceneNames:
-  - Ivan Scene
   - Main Screen
+  - mission2
+  - Final Scene

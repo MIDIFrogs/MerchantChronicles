@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: kolbi
   m_EditorClassIdentifier: 
   answer: 1728
-  question: {fileID: 21300000, guid: 24b6f6e4345efff4295041d75ce99591, type: 3}
+  question: {fileID: 21300000, guid: ae11c72f395ae584f9c2a991c3bccd4d, type: 3}

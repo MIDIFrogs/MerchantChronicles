@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-using Unity.UI;
 using SibGameJam.Inventory;
 
 namespace SibGameJam

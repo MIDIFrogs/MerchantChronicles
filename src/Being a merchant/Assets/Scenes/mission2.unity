@@ -1178,7 +1178,7 @@ GameObject:
   - component: {fileID: 363169631}
   - component: {fileID: 363169630}
   - component: {fileID: 363169634}
-  - component: {fileID: 363169633}
+  - component: {fileID: 363169635}
   m_Layer: 5
   m_Name: btn
   m_TagString: Untagged
@@ -1393,27 +1393,6 @@ MonoBehaviour:
   open: {fileID: 0}
   audioSource: {fileID: 0}
   close: {fileID: 0}
---- !u!95 &363169633
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 363169624}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3f4342ec6082bba4ead9464e10fe7c69, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &363169634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1466,6 +1445,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &363169635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363169624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2ee13f1d0a473c4f90bf41210ad059b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: f6c9b99738c1cc84f85c72b25527e0b7, type: 3}
+  - {fileID: 21300000, guid: 1e3283913980566439feca8f85808355, type: 3}
+  - {fileID: 21300000, guid: 1ff58f1422784a842a4a4ccb76916895, type: 3}
+  - {fileID: 21300000, guid: e21a6758d0ac2664f9a2c1417b6fdd9b, type: 3}
+  - {fileID: 21300000, guid: 26a0a1f04e0cf184da75852b698407be, type: 3}
+  - {fileID: 21300000, guid: 729be3b022874764dbc010a735e860e2, type: 3}
+  - {fileID: 21300000, guid: 069f28c1852c99547b1e5c2750621d3b, type: 3}
+  - {fileID: 21300000, guid: d93f7adf641b3104cbf71837586c3054, type: 3}
+  spritePerFrame: 120
+  loop: 1
+  destroyOnEnd: 0
 --- !u!1 &392054127 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5520997039494030557, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
@@ -1888,9 +1891,9 @@ MonoBehaviour:
   animationDuration: 0.2
   text: {fileID: 270539923}
   size: 0.03
-  open: {fileID: 0}
-  audioSource: {fileID: 0}
-  close: {fileID: 0}
+  open: {fileID: 8300000, guid: 9c5d5ba3f49349f428b180ca6036f3cb, type: 3}
+  audioSource: {fileID: 1694673016}
+  close: {fileID: 8300000, guid: 9c5d5ba3f49349f428b180ca6036f3cb, type: 3}
 --- !u!114 &444406200 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 544901434304897270, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
@@ -14667,7 +14670,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -413, y: 0}
+  m_AnchoredPosition: {x: -311, y: -184.99998}
   m_SizeDelta: {x: 678, y: 226.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1415979736

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdf604a3ed41e974ea6f2708ac425954, type: 3}
-  m_Name: OsuAnvil
+  m_Name: OsuAnvil 1
   m_EditorClassIdentifier: 
   minigamePrefab: {fileID: 4041992066972653692, guid: 61af7b5227eafaf4fbdc95e514626b3b, type: 3}
   selectableItems:

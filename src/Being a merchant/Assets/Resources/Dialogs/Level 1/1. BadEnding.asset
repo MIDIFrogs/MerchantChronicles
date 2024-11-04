@@ -26,6 +26,6 @@ MonoBehaviour:
       \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E\u0432\u0430\u043B \u0443\u0431\u0435\u0440,
       \u043E\u043D \u0431\u044B \u043F\u043E\u0441\u0442\u0430\u0432\u0438\u043B
       \u0432\u0430\u043C \u043E\u0434\u043D\u0443 \u0437\u0432\u0435\u0437\u0434\u0443"
-    voice: {fileID: 0}
+    voice: {fileID: 8300000, guid: 86821f5d0beea5748b67aa0701a2a9ee, type: 3}
     frameSplash: {fileID: 21300000, guid: 7846d9f0d0a4271449943ed0a74bcf0d, type: 3}
     fontStyle: 0

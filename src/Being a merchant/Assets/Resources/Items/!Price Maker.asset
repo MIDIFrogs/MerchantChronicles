@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allItems:
   - {fileID: 11400000, guid: e6a9a0615aa7b584fa329be73c83544b, type: 2}
+  - {fileID: 11400000, guid: aaec97e88bdb963479c59d12e18349ad, type: 2}
+  - {fileID: 11400000, guid: db57da13e7890b94d9a3a1ca89593d26, type: 2}
   - {fileID: 11400000, guid: b0f1e577725d25c42affc3a7c70b0999, type: 2}
+  - {fileID: 11400000, guid: a41a6926a7c4a284380788f89fdda0a7, type: 2}
   - {fileID: 11400000, guid: 0a49f63ec070b254d85c620e20224ff8, type: 2}
   - {fileID: 11400000, guid: e2baf4222a6340d4fbf2d3def528cd4d, type: 2}
   - {fileID: 11400000, guid: 5937a87c448b9d7469e40627a0b86b07, type: 2}
@@ -22,12 +25,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 028e707609394ee4baa64f88a073e939, type: 2}
   - {fileID: 11400000, guid: c683b80aee752484cb5c7a061bde8fa4, type: 2}
   - {fileID: 11400000, guid: df9204ece3ad44e4a805981a7229da00, type: 2}
+  - {fileID: 11400000, guid: 06a1ed8a0e0f0e6408a6f2479be5aabc, type: 2}
+  - {fileID: 11400000, guid: d3c9f36c86bc0d24abcb07863863fa35, type: 2}
   - {fileID: 11400000, guid: d0e1209cd1aec024e9282bd1c285e05b, type: 2}
+  - {fileID: 11400000, guid: ad37bd9dbb20c01458405acffd9ba313, type: 2}
   - {fileID: 11400000, guid: cbc0b696e020adb4e9f0d617af5cb033, type: 2}
   - {fileID: 11400000, guid: 561b061675395824197cdf45fd1e79a9, type: 2}
   - {fileID: 11400000, guid: 8133b99ee480c6b4a89c2fb25f144cc4, type: 2}
+  - {fileID: 11400000, guid: c8f887e304ee0d44abe3ab4f069a7ea6, type: 2}
+  - {fileID: 11400000, guid: bd5b633db16c16a4ca9db143126db788, type: 2}
   - {fileID: 11400000, guid: 58348819ac45a344ca00d9d282395bb2, type: 2}
   - {fileID: 11400000, guid: 9d8b97ca8d5fd3e479d575392c6d4708, type: 2}
   leastValuable: {fileID: 11400000, guid: 028e707609394ee4baa64f88a073e939, type: 2}
   mostValuable: {fileID: 11400000, guid: 8133b99ee480c6b4a89c2fb25f144cc4, type: 2}
-  itemPrices: 0800000009000000c30100000b00000072000000090000000a0000000a000000080000000a000000700000000a00000005020000080000000b000000
+  itemPrices: 4d0000004f000000490000003f0000004b000000ac0100003d000000a90000003e000000440000003700000038000000360000003a00000049000000380000009e00000044000000050200004300000046000000500000003b000000

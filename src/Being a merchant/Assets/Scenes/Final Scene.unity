@@ -223,10 +223,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1845177596}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.7000732, y: 5}
-  m_SizeDelta: {x: 1929.4, y: 1080.9937}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &109881705
 MonoBehaviour:
@@ -1217,9 +1217,9 @@ MonoBehaviour:
   coins: {fileID: 757237234}
   win: {fileID: 1146946205}
   lose: {fileID: 863946096}
-  aourse: {fileID: 0}
-  goodSound: {fileID: 0}
-  badSound: {fileID: 0}
+  aourse: {fileID: 1845177598}
+  goodSound: {fileID: 8300000, guid: 946d69e6210e4114ab16f26f0fe44bf8, type: 3}
+  badSound: {fileID: 8300000, guid: 97ec4e91473d0e645ac234d477bbde0f, type: 3}
 --- !u!82 &1845177598
 AudioSource:
   m_ObjectHideFlags: 0

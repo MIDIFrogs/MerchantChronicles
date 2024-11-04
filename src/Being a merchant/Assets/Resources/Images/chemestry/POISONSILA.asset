@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce17a37d2ad599247b977fbcd1104fe1, type: 3}
   m_Name: POISONSILA
   m_EditorClassIdentifier: 
-  first: {fileID: 11400000, guid: e2baf4222a6340d4fbf2d3def528cd4d, type: 2}
+  first: {fileID: 11400000, guid: e6a9a0615aa7b584fa329be73c83544b, type: 2}
   second: {fileID: 11400000, guid: b0f1e577725d25c42affc3a7c70b0999, type: 2}
   third: {fileID: 11400000, guid: cbc0b696e020adb4e9f0d617af5cb033, type: 2}
   poisonR: {fileID: 11400000, guid: 8133b99ee480c6b4a89c2fb25f144cc4, type: 2}

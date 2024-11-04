@@ -119,6 +119,7 @@ namespace SibGameJam
                 FinishGame();
                 PlayerStats.Session.Inventory.TryAddItem(XerZnaetChto);
             }
+            result.Clear();
             stupa1.SetActive(false);
             stupa.SetActive(true);
             dop.PlayOneShot(end);
@@ -136,7 +137,6 @@ namespace SibGameJam
             AddImages();
             amb.Pause();
             miniGameMusic.Play();
-
         }
 
         public void FinishGame()

@@ -1437,7 +1437,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 729be3b022874764dbc010a735e860e2, type: 3}
   - {fileID: 21300000, guid: 069f28c1852c99547b1e5c2750621d3b, type: 3}
   - {fileID: 21300000, guid: d93f7adf641b3104cbf71837586c3054, type: 3}
-  spritePerFrame: 1
+  spritePerFrame: 120
   loop: 1
   destroyOnEnd: 0
 --- !u!1 &395421142 stripped
@@ -1838,9 +1838,9 @@ MonoBehaviour:
   animationDuration: 0.2
   text: {fileID: 270539923}
   size: 0.03
-  open: {fileID: 0}
-  audioSource: {fileID: 0}
-  close: {fileID: 0}
+  open: {fileID: 8300000, guid: 9c5d5ba3f49349f428b180ca6036f3cb, type: 3}
+  audioSource: {fileID: 1694673016}
+  close: {fileID: 8300000, guid: 9c5d5ba3f49349f428b180ca6036f3cb, type: 3}
 --- !u!114 &444406200 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 544901434304897270, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
@@ -12764,6 +12764,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: silaSibiry
       objectReference: {fileID: 0}
+    - target: {fileID: 6074724528890041677, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
+      propertyPath: open
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b155ef99ba2697478b88fd230e75b32, type: 3}
+    - target: {fileID: 6074724528890041677, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
+      propertyPath: close
+      value: 
+      objectReference: {fileID: 8300000, guid: 8b5590f4fdb1fcd48be879de62c4853e, type: 3}
+    - target: {fileID: 6074724528890041677, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1694673016}
     - target: {fileID: 8398545282974095613, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
       propertyPath: m_Pivot.x
       value: 0.23933679
@@ -13269,13 +13281,25 @@ PrefabInstance:
       value: book (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6074724528890041677, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
+      propertyPath: open
+      value: 
+      objectReference: {fileID: 8300000, guid: 9c5d5ba3f49349f428b180ca6036f3cb, type: 3}
+    - target: {fileID: 6074724528890041677, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
       propertyPath: text
       value: 
       objectReference: {fileID: 1711639375}
     - target: {fileID: 6074724528890041677, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
+      propertyPath: close
+      value: 
+      objectReference: {fileID: 8300000, guid: 9c5d5ba3f49349f428b180ca6036f3cb, type: 3}
+    - target: {fileID: 6074724528890041677, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6074724528890041677, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1694673016}
     - target: {fileID: 8398545282974095613, guid: 6998d9dedc059e643a59ed0ca5ac4371, type: 3}
       propertyPath: m_Pivot.x
       value: 0.23933679

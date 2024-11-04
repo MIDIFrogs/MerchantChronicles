@@ -38,6 +38,6 @@ MonoBehaviour:
       \u043F\u043E \u043A\u0440\u0443\u0433\u0443, \u0447\u0442\u043E\u0431\u044B
       \u0432\u0440\u0430\u0449\u0435\u043D\u0438\u0435 \u0437\u0435\u043C\u043B\u0438
       \u043D\u0435 \u043F\u0440\u0435\u043A\u0440\u0430\u0449\u0430\u043B\u043E\u0441\u044C"
-    voice: {fileID: 0}
+    voice: {fileID: 8300000, guid: da6482eacfcae5145bc6295e78052b7d, type: 3}
     frameSplash: {fileID: 21300000, guid: 7846d9f0d0a4271449943ed0a74bcf0d, type: 3}
     fontStyle: 2
