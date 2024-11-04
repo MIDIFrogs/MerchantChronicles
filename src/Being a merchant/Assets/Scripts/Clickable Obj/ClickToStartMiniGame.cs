@@ -11,7 +11,8 @@ namespace SibGameJam
     {
         [SerializeField] private MinigameInfo minigameToStart;
         [SerializeField] private MinigameItemSelector itemSelector;
-
+        [SerializeField] private AudioSource amb;
+ 
         [Header("Required to attach")]
         [SerializeField] private Transform canvas;
 
@@ -20,6 +21,7 @@ namespace SibGameJam
             var selector = Instantiate(itemSelector, canvas);
             selector.Minigame = minigameToStart;
             selector.Canvas = canvas;
+            selector.Amb = amb;
         }
     }
 }

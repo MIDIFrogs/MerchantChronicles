@@ -14,6 +14,8 @@ namespace SibGameJam
         [SerializeField] private Transform dropPanel;
         [SerializeField] private GameObject panel;
         [SerializeField] private Button Result;
+        [SerializeField] private AudioSource amb;
+        [SerializeField] private AudioSource miniGameMusic;
         private Vector3 originalPosition;
         public Canvas canvas;
         private GameObject draggedImage;
@@ -129,12 +131,16 @@ namespace SibGameJam
         {
             panel.SetActive(true);
             AddImages();
+            amb.Pause();
+            miniGameMusic.Play();
 
         }
 
         public void FinishGame()
         {
             panel.SetActive(false);
+            amb.Play();
+            miniGameMusic.Stop();
         }
     }
 }

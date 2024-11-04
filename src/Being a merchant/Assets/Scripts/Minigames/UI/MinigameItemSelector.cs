@@ -1,6 +1,7 @@
 using SibGameJam.Inventory;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 namespace SibGameJam.Minigames.UI
@@ -10,11 +11,13 @@ namespace SibGameJam.Minigames.UI
         [SerializeField] private ItemSelectVM itemSelectPrefab;
         [SerializeField] private Button confirmButton;
         [SerializeField] private Transform gridToAttach;
+
         
 		private ItemSelectVM selectedItem;
 
         public Transform Canvas { get; set; }
 
+        public AudioSource Amb {  get; set; }
 		public MinigameInfo Minigame { get; set; }
 
         private void Start()
@@ -30,7 +33,7 @@ namespace SibGameJam.Minigames.UI
         public void OnConfirm()
         {
             var minigame = Instantiate(Minigame.MinigamePrefab, Canvas);
-            minigame.StartGame(selectedItem.Selectable.RequestedItem, selectedItem.Selectable.FailItem, Minigame.Level);
+            minigame.StartGame(selectedItem.Selectable.RequestedItem, selectedItem.Selectable.FailItem, Minigame.Level, Amb);
             Destroy(gameObject);
         }
 
