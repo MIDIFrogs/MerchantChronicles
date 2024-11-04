@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: "\u0417\u0435\u043B\u044C\u0435 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F"
   description: 
-  icon: {fileID: 21300000, guid: 5f3663db30c0d6c4e9f3e90f6520ad9b, type: 3}
+  icon: {fileID: 21300000, guid: 3e9a11997abd8c641a45768fcef5e8eb, type: 3}
   itemType: 0
   itemRarity: 0
   recommendedPrice: 250
