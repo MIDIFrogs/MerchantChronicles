@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c19ebd4bc090ac499c0e93c94431497, type: 3}
+  m_Name: Beatmap1
+  m_EditorClassIdentifier: 
+  audioWin: {fileID: 8300000, guid: 1693fcfc8f86d5646a63f3e9889fc935, type: 3}
+  audioLose: {fileID: 8300000, guid: 47b572bfac6ab224ba43cb826e139398, type: 3}
+  audioBegin: {fileID: 8300000, guid: 22eeaecc555b8d14082f80c13436ac18, type: 3}
+  approachRate: 2
+  beatTicks:
+  - tickTime: 1.45
+    isRight: 0
+  - tickTime: 2.36
+    isRight: 0
+  - tickTime: 2.77
+    isRight: 1
+  - tickTime: 3.66
+    isRight: 0
+  - tickTime: 4.04
+    isRight: 1
+  - tickTime: 5.33
+    isRight: 0
+  - tickTime: 5.68
+    isRight: 1
+  - tickTime: 6.14
+    isRight: 0
+  - tickTime: 6.54
+    isRight: 1
+  - tickTime: 7.03
+    isRight: 1
+  - tickTime: 7.93
+    isRight: 0
+  - tickTime: 8.31
+    isRight: 1
+  - tickTime: 8.47
+    isRight: 1
+  - tickTime: 9.13
+    isRight: 0
+  songBPM: 140
+  firstBeatOffset: 0
