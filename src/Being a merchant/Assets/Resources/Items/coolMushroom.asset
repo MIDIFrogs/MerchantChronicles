@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f621436940a22074b9f98f29b8ed990b, type: 3}
-  m_Name: FastTalking
+  m_Name: coolMushroom
   m_EditorClassIdentifier: 
-  title: "\u0417\u0435\u043B\u044C\u0435 \u043A\u0440\u0430\u0441\u043D\u043E\u0440\u0435\u0447\u0438\u044F"
+  title: "\u041A\u0440\u0443\u0442\u043E\u0413\u0440\u0438\u0431"
   description: 
-  icon: {fileID: 21300000, guid: dd691236e80fc044ca80f5cd995a61dd, type: 3}
+  icon: {fileID: 21300000, guid: 6b8214dfe57fee54b955437d3cb63d6f, type: 3}
   itemType: 0
   itemRarity: 0
+  recommendedPrice: 90

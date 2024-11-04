@@ -34,7 +34,7 @@ namespace SibGameJam.DialogSystem
                 sel.Item = item;
 				sel.SellDialog = this;
                 items.Add(sel);
-                maxPrices.Add(dialogRunner.GetMaxPrice(item));
+                maxPrices.Add(dialogRunner.PriceMaker.GetMaxPrice(item));
             }
         }
 
