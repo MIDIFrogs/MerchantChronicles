@@ -6,7 +6,7 @@ namespace SibGameJam.Minigames
 	public class RecipeStep : ScriptableObject
 	{
 		[SerializeField] private string stepName;
-		[SerializeField] [Range(0, 15)] private float duration;
+		[SerializeField] [Range(0, 40)] private float duration;
 		[SerializeField] private Sprite icon;
 
 		public string StepName => stepName;

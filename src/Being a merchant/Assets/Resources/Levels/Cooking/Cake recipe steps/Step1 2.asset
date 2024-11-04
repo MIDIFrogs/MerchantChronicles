@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Step1 2
   m_EditorClassIdentifier: 
   stepName: "\u041A\u043E\u0440\u0436 \u0438\u0441\u043F\u0435\u0447\u044C"
-  duration: 6.9
+  duration: 15
   icon: {fileID: 21300000, guid: 68edcebea6505004fb397cdaebb8618b, type: 3}

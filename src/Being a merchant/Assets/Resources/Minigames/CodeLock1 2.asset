@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf604a3ed41e974ea6f2708ac425954, type: 3}
+  m_Name: CodeLock1 2
+  m_EditorClassIdentifier: 
+  minigamePrefab: {fileID: 1895550515857354486, guid: 4b166767412e9ec44a8fdcfa90364795, type: 3}
+  selectableItems:
+  - requestedItem: {fileID: 11400000, guid: bd5b633db16c16a4ca9db143126db788, type: 2}
+    failItem: {fileID: 11400000, guid: e2baf4222a6340d4fbf2d3def528cd4d, type: 2}
+  level: {fileID: 11400000, guid: 986fe1103d12f0a4393b906e77e2c5e9, type: 2}

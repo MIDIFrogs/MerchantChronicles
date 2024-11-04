@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa0901399268d7f438c0e8cf4d76ad0a, type: 3}
+  m_Name: pivo
+  m_EditorClassIdentifier: 
+  steps:
+  - {fileID: 11400000, guid: 64791a645e0698445976e8ec215e3842, type: 2}
+  - {fileID: 11400000, guid: 105a7da3909d9844b87d9c47b93e5294, type: 2}
+  - {fileID: 11400000, guid: d52a34369d6bd6e4a9d824f8f0c0c4bc, type: 2}
+  - {fileID: 11400000, guid: d7938f5864193a54ea1775f3cb22c261, type: 2}
