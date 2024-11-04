@@ -16,4 +16,12 @@ MonoBehaviour:
   selectableItems:
   - requestedItem: {fileID: 11400000, guid: 0a49f63ec070b254d85c620e20224ff8, type: 2}
     failItem: {fileID: 11400000, guid: 9d8b97ca8d5fd3e479d575392c6d4708, type: 2}
+  - requestedItem: {fileID: 11400000, guid: 0a49f63ec070b254d85c620e20224ff8, type: 2}
+    failItem: {fileID: 11400000, guid: 9d8b97ca8d5fd3e479d575392c6d4708, type: 2}
+  - requestedItem: {fileID: 11400000, guid: 0a49f63ec070b254d85c620e20224ff8, type: 2}
+    failItem: {fileID: 11400000, guid: 9d8b97ca8d5fd3e479d575392c6d4708, type: 2}
+  - requestedItem: {fileID: 11400000, guid: 0a49f63ec070b254d85c620e20224ff8, type: 2}
+    failItem: {fileID: 11400000, guid: 9d8b97ca8d5fd3e479d575392c6d4708, type: 2}
+  - requestedItem: {fileID: 11400000, guid: 0a49f63ec070b254d85c620e20224ff8, type: 2}
+    failItem: {fileID: 11400000, guid: 9d8b97ca8d5fd3e479d575392c6d4708, type: 2}
   level: {fileID: 11400000, guid: a0d29e36e5bd33641807e86640b9df4b, type: 2}

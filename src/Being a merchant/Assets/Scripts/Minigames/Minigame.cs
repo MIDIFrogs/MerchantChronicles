@@ -26,10 +26,10 @@ namespace SibGameJam.Minigames
             FailItem = failItem;
             Amb = amb;
             Level = level;
-            amb.Pause();
-            miniGameMusic.Play();
             gameMenu.SetActive(true);
             OnGameStarted();
+            amb.Pause();
+            miniGameMusic.Play();
         }
 
         protected abstract void OnGameStarted();
