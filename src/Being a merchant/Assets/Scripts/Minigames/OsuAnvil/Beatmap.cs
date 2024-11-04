@@ -16,8 +16,16 @@ namespace SibGameJam.Minigames
 
 	public class Beatmap : MinigameTask
 	{
-		[SerializeField] private AudioClip audio;
-		[SerializeField] private float soundSpeed;
+		[SerializeField] private AudioClip audioWin;
+		[SerializeField] private AudioClip audioLose;
+		[SerializeField] private AudioClip audioBegin;
+		[SerializeField] private float approachRate;
 		[SerializeField] private List<BeatTick> beatTicks;
+
+		public AudioClip AudioWin => audioWin;
+		public AudioClip AudioLose => audioLose;
+		public float ApproachRate => approachRate;
+		public AudioClip AudioBegin => audioBegin;
+		public IReadOnlyList<BeatTick> BeatTicks => beatTicks;
 	}
 }
