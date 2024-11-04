@@ -5,6 +5,6 @@ namespace SibGameJam
 {
 	public static class PlayerStats
 	{
-		public static GameSession Session { get; set; } = GameSession.LoadOrCreate();
+		public static GameSession Session { get; set; } = new GameSession();
 	}
 }

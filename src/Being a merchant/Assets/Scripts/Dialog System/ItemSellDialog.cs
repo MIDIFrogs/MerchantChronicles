@@ -61,6 +61,7 @@ namespace SibGameJam.DialogSystem
 
 		public void OnConfirm()
 		{
+			Destroy(gameObject);
 			dialogRunner.OnItemSold(selectedItem.Item, price);
 		}
 

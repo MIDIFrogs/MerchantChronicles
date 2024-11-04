@@ -68,6 +68,7 @@ namespace SibGameJam.DialogSystem
             // Prepare the token to cancel the animation.
             CancellationTokenSource cancelPreTask = new();
 
+            voiceOver.clip = null;
             // Fill up the frame data
             if (replic.Voice != null)
             {

@@ -1641,10 +1641,10 @@ MonoBehaviour:
   dialogPlayer: {fileID: 2065403223}
   goodItems: []
   startDialog: {fileID: 11400000, guid: 56ceb282dda85cd49a36a37b15c71c0b, type: 2}
-  sellGoodPriceDialog: {fileID: 0}
-  sellBadPriceDialog: {fileID: 0}
-  goodEndingDialog: {fileID: 0}
-  badEndingDialog: {fileID: 0}
+  sellGoodPriceDialog: {fileID: 11400000, guid: d7bb86be7e8d0904b8624cecbb6256e8, type: 2}
+  sellBadPriceDialog: {fileID: 11400000, guid: cce1d50b3b765e640997754097bc76ac, type: 2}
+  goodEndingDialog: {fileID: 11400000, guid: b046b35e857fe30459e5ef8cdeb93dcc, type: 2}
+  badEndingDialog: {fileID: 11400000, guid: af892e73d53d21f409c99e5d1e701f99, type: 2}
 --- !u!1 &1994431751
 GameObject:
   m_ObjectHideFlags: 0

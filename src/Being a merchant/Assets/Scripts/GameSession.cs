@@ -1,5 +1,6 @@
 using SibGameJam.Inventory;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace SibGameJam
 {
@@ -29,10 +30,13 @@ namespace SibGameJam
 
 		public void LevelCompleted(GameResult result, int coinsEarned)
 		{
+			Debug.Log($"Navigating between scenes. New scene: {CurrentScene}.");
+			Debug.Log($"Earned reputation: {(int)result}, coins: {coinsEarned}.");
 			CurrentScene++;
 			Reputation += (int)result;
 			Coins += coinsEarned;
 			Save();
+			SceneManager.LoadScene(SceneList.SceneNames[CurrentScene]);
 		}
 
 		public void Save()
