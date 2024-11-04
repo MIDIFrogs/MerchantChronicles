@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c19ebd4bc090ac499c0e93c94431497, type: 3}
+  m_Name: Beatmap2
+  m_EditorClassIdentifier: 
+  audioWin: {fileID: 8300000, guid: 61f00d9595dfb244292e60f0f1fe1bc0, type: 3}
+  audioLose: {fileID: 8300000, guid: 3bc1a107acf061f4e8af6a1bf6997a95, type: 3}
+  audioBegin: {fileID: 8300000, guid: ab93d83caca3367458c63ba2d72cf316, type: 3}
+  approachRate: 1
+  beatTicks:
+  - tickTime: 1.07
+    isRight: 0
+  - tickTime: 1.28
+    isRight: 0
+  - tickTime: 1.5
+    isRight: 1
+  - tickTime: 1.71
+    isRight: 1
+  - tickTime: 2.14
+    isRight: 0
+  - tickTime: 2.46
+    isRight: 1
+  - tickTime: 2.78
+    isRight: 0
+  - tickTime: 3
+    isRight: 1
+  - tickTime: 3.42
+    isRight: 1
+  - tickTime: 3.85
+    isRight: 0
+  - tickTime: 4.17
+    isRight: 1
+  - tickTime: 4.28
+    isRight: 1
+  - tickTime: 4.5
+    isRight: 0
+  - tickTime: 4.71
+    isRight: 1
+  - tickTime: 4.92
+    isRight: 1
+  - tickTime: 5.14
+    isRight: 0
+  - tickTime: 5.57
+    isRight: 1
+  - tickTime: 5.78
+    isRight: 0
+  - tickTime: 5.89
+    isRight: 0
+  - tickTime: 6
+    isRight: 1
+  - tickTime: 6.21
+    isRight: 0
+  - tickTime: 6.42
+    isRight: 1
+  - tickTime: 6.85
+    isRight: 1
+  - tickTime: 7.07
+    isRight: 0
+  - tickTime: 7.28
+    isRight: 1
+  - tickTime: 7.5
+    isRight: 0
+  - tickTime: 7.71
+    isRight: 0
+  - tickTime: 8.14
+    isRight: 1
+  - tickTime: 8.35
+    isRight: 0
+  - tickTime: 8.57
+    isRight: 1
+  - tickTime: 9
+    isRight: 1
+  - tickTime: 10.28
+    isRight: 1
+  - tickTime: 10.5
+    isRight: 1
+  - tickTime: 10.71
+    isRight: 0
+  - tickTime: 10.92
+    isRight: 1
+  - tickTime: 11.14
+    isRight: 0
+  - tickTime: 11.35
+    isRight: 0
+  - tickTime: 11.57
+    isRight: 0
+  - tickTime: 11.78
+    isRight: 1
+  - tickTime: 12
+    isRight: 0
+  - tickTime: 12.21
+    isRight: 1
+  - tickTime: 12.32
+    isRight: 0
+  - tickTime: 12.64
+    isRight: 0
+  - tickTime: 12.85
+    isRight: 0
+  - tickTime: 13.07
+    isRight: 0
+  - tickTime: 13.28
+    isRight: 0
+  - tickTime: 13.5
+    isRight: 1
+  songBPM: 140
+  firstBeatOffset: 0

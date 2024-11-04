@@ -2056,7 +2056,7 @@ PrefabInstance:
     - target: {fileID: 919198886821116734, guid: 4e1d78bd5b652474db8e2c92f64d01ac, type: 3}
       propertyPath: minigameToStart
       value: 
-      objectReference: {fileID: 11400000, guid: bc0747cb146664444aacaf81b11418a8, type: 2}
+      objectReference: {fileID: 11400000, guid: 426ac1815da708c46875236ffd76f9a0, type: 2}
     - target: {fileID: 4067769190019807101, guid: 4e1d78bd5b652474db8e2c92f64d01ac, type: 3}
       propertyPath: m_Sprite
       value: 

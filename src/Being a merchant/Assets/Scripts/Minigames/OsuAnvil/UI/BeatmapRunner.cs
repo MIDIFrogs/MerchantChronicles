@@ -22,6 +22,10 @@ public class BeatmapRunner : MonoBehaviour
     [SerializeField] Image goodImg;
     [SerializeField] Image badImg;
 
+    [SerializeField] AudioSource audio;
+    [SerializeField] AudioClip lmbSound;
+    [SerializeField] AudioClip rmbSound;
+
     [Header("Level params")]
     [SerializeField] float failDelay;
     [SerializeField] int minHealth;
@@ -177,10 +181,12 @@ public class BeatmapRunner : MonoBehaviour
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
+            audio.PlayOneShot(lmbSound);
             ClickCircle(false);
         }
         if (Mouse.current.rightButton.wasPressedThisFrame)
         {
+            audio.PlayOneShot(rmbSound);
             ClickCircle(true);
         }
     }
