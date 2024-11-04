@@ -7,7 +7,7 @@ public class CreditsNavigator : MonoBehaviour
 {
     public void NavigateToMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Menu");
     }
 
     public void NavigateToCredits()
