@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogContent:
   - author: {fileID: 11400000, guid: 2e651e578480e7e4781466e52f48ac52, type: 2}
-    message: 
+    message: ...
     voice: {fileID: 0}
     frameSplash: {fileID: 21300000, guid: 7846d9f0d0a4271449943ed0a74bcf0d, type: 3}
     fontStyle: 0

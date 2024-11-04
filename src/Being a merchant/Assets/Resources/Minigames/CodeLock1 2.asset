@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minigamePrefab: {fileID: 1895550515857354486, guid: 4b166767412e9ec44a8fdcfa90364795, type: 3}
   selectableItems:
+  - requestedItem: {fileID: 11400000, guid: db57da13e7890b94d9a3a1ca89593d26, type: 2}
+    failItem: {fileID: 11400000, guid: e2baf4222a6340d4fbf2d3def528cd4d, type: 2}
   - requestedItem: {fileID: 11400000, guid: bd5b633db16c16a4ca9db143126db788, type: 2}
     failItem: {fileID: 11400000, guid: e2baf4222a6340d4fbf2d3def528cd4d, type: 2}
-  level: {fileID: 11400000, guid: 986fe1103d12f0a4393b906e77e2c5e9, type: 2}
+  - requestedItem: {fileID: 11400000, guid: a41a6926a7c4a284380788f89fdda0a7, type: 2}
+    failItem: {fileID: 11400000, guid: e2baf4222a6340d4fbf2d3def528cd4d, type: 2}
+  level: {fileID: 11400000, guid: 0c917722161baea4cb6dcddcea2ab67a, type: 2}
