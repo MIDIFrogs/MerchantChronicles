@@ -17,65 +17,33 @@ MonoBehaviour:
   audioBegin: {fileID: 8300000, guid: 22eeaecc555b8d14082f80c13436ac18, type: 3}
   approachRate: 2
   beatTicks:
-  - tickTime: 1.09
+  - tickTime: 1.45
     isRight: 0
-  - tickTime: 1.46
-    isRight: 0
-  - tickTime: 1.89
-    isRight: 1
-  - tickTime: 2.35
+  - tickTime: 2.36
     isRight: 0
   - tickTime: 2.77
     isRight: 1
-  - tickTime: 3.01
+  - tickTime: 3.66
     isRight: 0
-  - tickTime: 3.2
+  - tickTime: 4.04
     isRight: 1
-  - tickTime: 3.63
+  - tickTime: 5.33
     isRight: 0
-  - tickTime: 4.05
+  - tickTime: 5.68
     isRight: 1
-  - tickTime: 4.71
-    isRight: 1
-  - tickTime: 4.95
+  - tickTime: 6.14
     isRight: 0
-  - tickTime: 5.38
+  - tickTime: 6.54
     isRight: 1
-  - tickTime: 6.21
+  - tickTime: 7.03
     isRight: 1
-  - tickTime: 6.37
+  - tickTime: 7.93
     isRight: 0
-  - tickTime: 6.61
+  - tickTime: 8.31
     isRight: 1
-  - tickTime: 7.07
+  - tickTime: 8.47
     isRight: 1
-  - tickTime: 7.28
-    isRight: 1
-  - tickTime: 7.41
-    isRight: 0
-  - tickTime: 7.52
-    isRight: 0
-  - tickTime: 7.76
-    isRight: 1
-  - tickTime: 7.95
-    isRight: 1
-  - tickTime: 8.19
-    isRight: 0
-  - tickTime: 8.3
-    isRight: 0
-  - tickTime: 8.43
-    isRight: 1
-  - tickTime: 8.65
-    isRight: 1
-  - tickTime: 8.86
-    isRight: 0
-  - tickTime: 9.03
-    isRight: 1
-  - tickTime: 9.22
-    isRight: 0
-  - tickTime: 9.43
-    isRight: 1
-  - tickTime: 9.63
+  - tickTime: 9.13
     isRight: 0
   songBPM: 140
   firstBeatOffset: 0
