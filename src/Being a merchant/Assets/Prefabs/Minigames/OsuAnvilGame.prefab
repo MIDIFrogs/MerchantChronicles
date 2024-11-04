@@ -1004,7 +1004,7 @@ MonoBehaviour:
   centerSide: {fileID: 2656404537904866568}
   goodImg: {fileID: 7021209549907869022}
   badImg: {fileID: 1371779158859291889}
-  failDelay: 0.1
+  failDelay: 0.25
   minHealth: 0
   maxHealth: 50
 --- !u!1 &8143646905601439986

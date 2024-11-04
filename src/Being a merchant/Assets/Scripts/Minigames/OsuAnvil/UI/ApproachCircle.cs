@@ -9,6 +9,7 @@ namespace SibGameJam.Minigames
         [SerializeField] Image circleImage;
         [SerializeField] Color leftColor;
         [SerializeField] Color rightColor;
+        [SerializeField] float fadeOutTime;
 
         private float centerPos;
 
@@ -31,7 +32,7 @@ namespace SibGameJam.Minigames
             }
         }
 
-        public float FadeOutTime { get; set; }
+        public float FadeOutTime { get => fadeOutTime; set => fadeOutTime = value; }
 
         public event System.EventHandler Approached;
 
@@ -46,7 +47,7 @@ namespace SibGameJam.Minigames
             {
                 yield return new WaitForEndOfFrame();
                 time += Time.deltaTime;
-                PosX = Mathf.Lerp(From.position.x, To.position.x, time / Speed);
+                PosX = Mathf.Lerp(From.position.x, To.position.x, time * Speed);
             }
             time = 0;
             while (time < FadeOutTime)

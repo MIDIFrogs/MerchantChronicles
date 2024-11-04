@@ -143,7 +143,7 @@ public class BeatmapRunner : MonoBehaviour
         Debug.Log("Failed!");
         goodStreak = 0;
         Health--;
-        StartCoroutine(AnimateHitResult(badImg, Color.black));
+        StartCoroutine(AnimateHitResult(badImg, Color.red));
     }
 
     public void Success()
